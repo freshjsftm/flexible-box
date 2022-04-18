@@ -1,0 +1,22 @@
+parent
+display:flex;     //включает технологию
+flex-direction    //изменяет направление основной оси
+flex-wrap         //разрешает перенос элементов
+justify-content   //выравнивает относительно ОСНОВНОЙ оси
+align-items       //выравнивание одной строки/столбца по поперечной оси
+align-content     //выравнивание строки/столбец по поперечной оси
+flex-flow
+
+child
+order:<0>   "-1" in start    "+1" in end
+align-self        //выравнивание себя по поперечной оси
+flex-grow         //как элементу расти
+flex-shrink       //как элементу сжиматься
+flex-basis        //потенциальный размер по основной оси - может            переопределяться контентом
+
+flex: flex-grow  flex-shrink  flex-basis;
+
+
+content => w/h => max-w/h => flex-basis => content => min-w/h 
+
+
